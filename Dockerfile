@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.7
 
 RUN apt-get -y update
 RUN apt-get install -y curl
